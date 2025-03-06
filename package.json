@@ -1,0 +1,35 @@
+{
+  "name": "meu-app",
+  "version": "1.0.0",
+  "main": "main.js",
+  "build": {
+    "appId": "com.meuapp.electron",
+    "productName": "Fast Tires",
+    "win": {
+      "icon": "/src/icons/favicon.ico"
+    }
+  },
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "author": "vitor Domingos",
+  "license": "MIT",
+  "description": "meuapp",
+  "devDependencies": {
+    "@electron-forge/cli": "^7.7.0",
+    "@electron-forge/maker-deb": "^7.7.0",
+    "@electron-forge/maker-rpm": "^7.7.0",
+    "@electron-forge/maker-squirrel": "^7.7.0",
+    "@electron-forge/maker-zip": "^7.7.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.7.0",
+    "@electron-forge/plugin-fuses": "^7.7.0",
+    "@electron/fuses": "^1.8.0",
+    "electron": "^34.3.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "electron-squirrel-startup": "^1.0.1"
+  }
+}
