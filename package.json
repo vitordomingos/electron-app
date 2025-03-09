@@ -1,10 +1,10 @@
 {
-  "name": "meu-app",
+  "name": "solicitar-materiais",
   "version": "1.0.0",
   "main": "main.js",
   "build": {
-    "appId": "com.meuapp.electron",
-    "productName": "Fast Tires",
+    "appId": "com.solicitarmateriais.electron",
+    "productName": "SolicitarMateriais",
     "win": {
       "icon": "/src/icons/favicon.ico"
     }
@@ -14,9 +14,9 @@
     "package": "electron-forge package",
     "make": "electron-forge make"
   },
-  "author": "vitor Domingos",
+  "author": "Vitor Domingos",
   "license": "MIT",
-  "description": "meuapp",
+  "description": "SolicitarMateriais",
   "devDependencies": {
     "@electron-forge/cli": "^7.7.0",
     "@electron-forge/maker-deb": "^7.7.0",

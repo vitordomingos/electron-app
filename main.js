@@ -25,7 +25,7 @@ const createWindow = () => {
 app.whenReady().then(() => {
     ipcMain.handle('ping', () => 'pong')
     ipcMain.handle('varAmbTest', () => process.env.TEST_VAR)
-    app.setName('Meu App')
+    app.setName('Solicitar Materiais')
     createWindow()
 
     app.on('activate', () => {
